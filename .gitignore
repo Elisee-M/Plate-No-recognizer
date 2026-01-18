@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# YOLO / ML
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Datasets
+images/
+annotations/
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kaggle
+.kaggle/
+kaggle.json

@@ -7,7 +7,7 @@ import re
 # ---------------- CONFIG ----------------
 PROJECT_DIR = r"C:\Users\Admin\Documents\Elisee\New folder\Plate number recognition"
 MODEL_PATH = os.path.join(PROJECT_DIR, "license-plate-finetune-v1n.pt")
-IMAGE_FILE = os.path.join(PROJECT_DIR, "test_car3.png")  # <-- your single photo
+IMAGE_FILE = os.path.join(PROJECT_DIR, "test_car2.png")  # <-- your single photo
 OUTPUT_DIR = os.path.join(PROJECT_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
